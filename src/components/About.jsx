@@ -9,7 +9,7 @@ export default function About() {
         ratione in.
       </p>
       <img src="assets\Mario and Adrian A.jpg" alt="" />
-      <img src="assets\Mario and Adrian A.jpg" alt="" />
+      <img src="assets\Mario and Adrian b.jpg" alt="" />
     </section>
   );
 }
