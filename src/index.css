@@ -1,3 +1,8 @@
+:root {
+  --greenish: #495e57;
+  --yellowish: #f4ce14;
+}
+
 *,
 *::before,
 *::after {
@@ -9,7 +14,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: Karla, sans-serif;
 }
 
 img {
@@ -18,13 +23,54 @@ img {
 }
 
 /* TYPOGRAPHY */
+h1,
+h2,
+h3,
+.subtitle {
+  font-family: "Markazi Text", serif;
+}
+
+h1 {
+  color: var(--yellowish);
+  font-size: 4.5rem;
+  margin-bottom: -0.25em;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.subtitle {
+  font-size: 2.5rem;
+  color: var(--yellowish);
+  margin: 0;
+  color: white;
+}
+
+.description {
+  color: white;
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  background-color: var(--yellowish);
+  color: black;
+  border: none;
+  padding: 0.75em 1.5em;
+  border-radius: 0.5em;
+  font-family: Karla, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
 
 /* NAVIGATION */
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 1em;
+  gap: 6em;
 }
 
 nav ul {
@@ -34,4 +80,25 @@ nav ul {
   display: flex;
   align-items: center;
   gap: 1em;
+}
+
+/* HERO */
+.hero {
+  background-color: var(--greenish);
+}
+
+.hero .wrapper {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  column-gap: 2em;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.hero .img-container {
+  padding: 1em;
+}
+
+.hero .img-container img {
+  border-radius: 1em;
 }
