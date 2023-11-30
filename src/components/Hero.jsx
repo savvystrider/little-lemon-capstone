@@ -9,7 +9,7 @@ export default function Hero() {
       </p>
       <div className="img-container">
         <img
-          src="assets/restaurantfood.jpg"
+          src="assets\restauranfood.jpg"
           alt="chef holding plate of food"
           className="hero-img"
         />
