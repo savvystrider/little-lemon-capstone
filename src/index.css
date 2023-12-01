@@ -156,6 +156,10 @@ nav ul {
 
 .delivery {
   font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  margin-bottom: 0.25em;
 }
 
 /* TESTIMONIALS */

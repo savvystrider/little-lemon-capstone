@@ -1,3 +1,5 @@
+import { MdDeliveryDining } from "react-icons/md";
+
 export default function Highlights() {
   return (
     <section className="highlights">
@@ -24,7 +26,9 @@ export default function Highlights() {
               and our homemade Chicago style feta cheese, garnished with crunch
               garlic and rosemary croutons.
             </p>
-            <p className="delivery">Order delivery</p>
+            <p className="delivery">
+              Order delivery <MdDeliveryDining />
+            </p>
           </div>
         </div>
         <div className="card">
@@ -44,7 +48,9 @@ export default function Highlights() {
               Our Bruschetta is made from grilled bread that has been smeared
               with garlic and seasoned with salt and olive oil.
             </p>
-            <p className="delivery">Order delivery</p>
+            <p className="delivery">
+              Order delivery <MdDeliveryDining />
+            </p>
           </div>
         </div>
         <div className="card">
@@ -64,7 +70,9 @@ export default function Highlights() {
               This comes straight from grandma's recipe book. Every last
               ingredient has been sourced and is authentic as can be imagined.
             </p>
-            <p className="delivery">Order delivery</p>
+            <p className="delivery">
+              Order delivery <MdDeliveryDining />
+            </p>
           </div>
         </div>
       </div>
