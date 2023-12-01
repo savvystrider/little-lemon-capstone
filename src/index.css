@@ -102,3 +102,58 @@ nav ul {
 .hero .img-container img {
   border-radius: 1em;
 }
+
+/* HIGHLIGHTS */
+.highlights {
+  max-width: 1000px;
+  margin-inline: auto;
+  margin-top: 2em;
+}
+
+.highlights-row,
+.card-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 3em;
+  margin-block: 1em;
+}
+
+.card {
+  background-color: #edefee;
+  border-radius: 1em;
+  flex: 1;
+  max-width: 400px;
+}
+
+.card .img-container {
+  width: 100%;
+}
+
+.card .img-container img {
+  border-top-right-radius: 1em;
+  border-top-left-radius: 1em;
+}
+
+.card:nth-of-type(3) .img-container img {
+  max-height: 12.5rem;
+  width: 100%;
+}
+
+.card-inner {
+  padding: 1em;
+}
+
+.dish-price {
+  color: #ee9972;
+}
+
+.delivery {
+  font-weight: bold;
+}
