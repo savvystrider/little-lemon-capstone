@@ -22,6 +22,10 @@ img {
   max-width: 100%;
 }
 
+section {
+  padding: 4em 2em;
+}
+
 /* TYPOGRAPHY */
 h1,
 h2,
@@ -110,7 +114,7 @@ nav ul {
 .highlights {
   max-width: 1000px;
   margin-inline: auto;
-  margin-top: 2em;
+  /* margin-top: 2em; */
 }
 
 .highlights-row,
@@ -168,7 +172,7 @@ nav ul {
 /* TESTIMONIALS */
 .testimonials {
   max-width: 1200px;
-  margin: 2em auto;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   gap: 2em;
@@ -187,7 +191,7 @@ nav ul {
 /* ABOUT */
 .about {
   max-width: 1200px;
-  margin: 3em auto;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 50% repeat(6, 1fr);
   column-gap: 2em;
