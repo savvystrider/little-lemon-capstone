@@ -4,6 +4,14 @@ export default function Reservations() {
       <h2>Reservations</h2>
       <form>
         <div className="input-element">
+          <label htmlFor="name">Name</label>
+          <input type="text" id="name" />
+        </div>
+        <div className="input-element">
+          <label htmlFor="phone">Phone Number</label>
+          <input type="tel" id="phone" />
+        </div>
+        <div className="input-element">
           <label htmlFor="date">Choose date</label>
           <input type="date" id="date" />
         </div>
@@ -29,7 +37,9 @@ export default function Reservations() {
             <option value="Anniversary">Anniversary</option>
           </select>
         </div>
-        <button type="submit">Submit</button>
+        <button type="submit" className="submit-btn">
+          Confirm Reservation
+        </button>
       </form>
     </div>
   );
