@@ -44,8 +44,17 @@ h2 {
   font-size: 2rem;
 }
 
+.highlights h3 {
+  font-size: 1.5rem;
+}
+
 p {
   line-height: 1.5;
+}
+
+header nav a {
+  text-decoration: none;
+  color: black;
 }
 
 .hero .subtitle {
@@ -136,7 +145,6 @@ nav ul {
   background-color: #edefee;
   border-radius: 1em;
   flex: 1;
-  max-width: 400px;
 }
 
 .card .img-container {

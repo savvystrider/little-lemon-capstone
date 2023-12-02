@@ -1,4 +1,4 @@
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -6,12 +6,24 @@ export default function Header() {
       <img src="assets/Logo.svg" alt="Little Lemon logo" className="logo" />
       <nav>
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Menu</li>
-          <li>Reservations</li>
-          <li>Order Online</li>
-          <li>Login</li>
+          <li>
+            <Link to="">Home</Link>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Menu</a>
+          </li>
+          <li>
+            <Link to="/reservations">Reservations</Link>
+          </li>
+          <li>
+            <a href="#">Order Online</a>
+          </li>
+          <li>
+            <a href="#">Login</a>
+          </li>
         </ul>
       </nav>
     </header>

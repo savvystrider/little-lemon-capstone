@@ -37,7 +37,7 @@ export default function Testimonials() {
         </div>
         <p className="quote">
           Can't get enough of the hummus and lemon desserts! Looking forward to
-          coming back and trying new dishes.
+          trying new dishes.
         </p>
       </div>
       <div className="testimonial">
@@ -73,8 +73,8 @@ export default function Testimonials() {
           <AiFillStar style={{ fill: "#F4CE14" }} />
         </div>
         <p className="quote">
-          If you're looking for authentic and tasty Mediterranean food, look no
-          further than Little Lemon. You won't regret it.
+          If you're looking for authentic and tasty Mediterranean food, check
+          out Little Lemon. You won't regret it.
         </p>
       </div>
     </section>

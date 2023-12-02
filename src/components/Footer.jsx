@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import {
   AiFillFacebook,
   AiFillInstagram,
@@ -10,7 +12,7 @@ export default function Footer() {
       <nav>
         <ul className="navigation">
           <li>
-            <a href="#">Home</a>
+            <Link to="">Home</Link>
           </li>
           <li>
             <a href="#">About</a>
@@ -19,7 +21,7 @@ export default function Footer() {
             <a href="#">Menu</a>
           </li>
           <li>
-            <a href="#">Reservations</a>
+            <Link to="/reservations">Reservations</Link>
           </li>
           <li>
             <a href="#">Contact</a>
